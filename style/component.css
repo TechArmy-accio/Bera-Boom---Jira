@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.para{
+     text-align: center;
+        font-size: 2rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(231, 137, 13, 0.5);
+    color: white;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+input{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: block;
+    background-color: rgb(0,0,0);
+    color: tomato;
+    border: none;
+    outline: none;
+    /* padding: 20px; */
+    
+}
+input::placeholder{
+    color: rgba(255,255,255,0.5);
+}
+
+legend{
+    font-size: 2rem;
+    color: white;
+    /* margin-top: 10px; */
+}
+fieldset{
+    background-color: rgb(0,0,0);
+    
+}
