@@ -46,3 +46,21 @@ fieldset{
     background-color: rgb(0,0,0);
     
 }
+
+.card{
+    background-color: rgb(236, 229, 229,0.9);
+    color: tomato;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    min-width: 70%;
+    overflow: hidden;
+}
+
+.dropdown{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}

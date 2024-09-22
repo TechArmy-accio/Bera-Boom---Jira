@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jira</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <title>Bira</title>
 </head>
 <body>
-     <h1>Jira Page</h1>
+      <header style="display: flex; justify-content: space-between;">
+          <h1> Bira Boom</h1>
 
-     <p></p>
+          <button onClick="logout()" class="btn"> Logout </button>
+      </header>
+      <div class="jira-container">
+            <div id="todo" class="column"> 
+
+                <h2 class="heading">Todo </h2>
+                 <div class="todo-card-container">
+
+                 </div>
+                 <button class="btn" id="add-card">+</button>
+                
+            </div>
+
+            <div id="inProgress" class="column"> <h2 class="heading">Progress </h2>
+            </div>
+
+            <div id="done" class="column"> 
+                <h2 class="heading">Done </h2>
+            </div>
+      </div>
+
 
 
      <script src="../js/jira.js">
@@ -30,3 +52,5 @@
      </script>
 </body>
 </html>
+
+

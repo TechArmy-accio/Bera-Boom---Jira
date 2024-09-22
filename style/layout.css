@@ -6,6 +6,7 @@
     height: 100vh;
 }
 
+
 .sub-container{
    background-color: rgb(0,0,0,0.5);
    color: rgb(240, 237, 233);
@@ -32,3 +33,30 @@
     height: 50vh;
 
 }
+
+
+/* Jira Page */
+
+.jira-container{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 100vh;
+    background-color: rgb(44, 42, 42,0.5);
+    color: wheat;
+}
+
+
+.superCard{
+    display: flex;
+    background-color:  rgb(23, 21, 21, 0.8);
+}
+
+.jira-container .column{
+    border: 2px solid greenyellow;
+    min-height: 400px;
+    min-width: 30%;
+    background-color: rgb(23, 21, 21, 0.5);
+}
+
+
